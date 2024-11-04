@@ -110,8 +110,14 @@ img {
 .address-mail:focus {
   color: #404bbf;
 }
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+}
 .one {
-  padding: 188px;
+  padding: 188px 0;
 }
 .one {
   background: #2e2f42;
@@ -148,7 +154,33 @@ img {
 .button:focus {
   background-color: #404bbf;
 }
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+}
+.section-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 0;
+}
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
 
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0);
+  overflow: hidden;
+}
 .two-link {
   font-size: 20px;
   font-weight: 500;
@@ -156,6 +188,17 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
+}
+.two-ul {
+  padding: 24px 0;
+  gap: 24px;
+  display: flex;
+}
+.two-li {
+  width: calc((100% - 72px) / 4);
+}
+.two-text {
+  margin-bottom: 8px;
 }
 .two-text {
   font-size: 16px;
