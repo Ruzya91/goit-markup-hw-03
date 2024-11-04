@@ -61,10 +61,14 @@ img {
 .nav-ul {
   display: flex;
   gap: 40px;
+  padding: 24px 0 24px;
 }
 .nav-text-li {
   display: flex;
   gap: 40px;
+  padding: 24px 0 24px;
+}
+.nav-text {
   padding: 24px 0 24px;
 }
 .nav-text-li {
@@ -90,6 +94,7 @@ img {
 .address-mail {
   display: flex;
   gap: 40px;
+  padding: 24px 0 24px;
 }
 .address-mail {
   font-size: 16px;
@@ -99,7 +104,6 @@ img {
   text-align: left;
   color: #434455;
   font-style: normal;
-  display: flex;
 }
 .address-mail:hover,
 .address-mail:focus {
