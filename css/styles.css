@@ -22,28 +22,23 @@ li {
   margin: 0;
   padding-left: 0;
 }
+
 img {
   display: block;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
-.container {
-  display: flex;
-}
 .header.container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -54,7 +49,6 @@ img {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-align: left;
   color: #4d5ae5;
   text-transform: uppercase;
   margin-right: 76px;
@@ -76,7 +70,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
   color: #2e2f42;
 }
 .nav-text:hover,
@@ -85,6 +78,7 @@ img {
 }
 .addres {
   font-style: normal;
+  display: flex;
 }
 .address-ul {
   display: flex;
@@ -102,6 +96,7 @@ img {
   text-align: left;
   color: #434455;
   font-style: normal;
+  display: flex;
 }
 .address-mail:hover,
 .address-mail:focus {
