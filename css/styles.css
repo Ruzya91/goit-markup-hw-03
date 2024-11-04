@@ -32,15 +32,17 @@ img {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+}
+.container {
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
 }
 .header.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 .header-nav {
   display: flex;
@@ -55,9 +57,14 @@ img {
   text-align: left;
   color: #4d5ae5;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .link-header {
   color: #2e2f42;
+}
+.nav-ul {
+  display: flex;
+  gap: 40px;
 }
 .nav-text {
   display: flex;
@@ -78,6 +85,10 @@ img {
 }
 .addres {
   font-style: normal;
+}
+.address-ul {
+  display: flex;
+  gap: 40px;
 }
 .address-mail {
   display: flex;
