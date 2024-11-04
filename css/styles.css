@@ -155,27 +155,13 @@ img {
   background-color: #404bbf;
 }
 
-.section-two {
+.two {
   padding: 120px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.visually-hidden:not(:focus):not(:active) {
-  position: absolute;
-
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-
-  clip-path: inset(100%);
-  clip: rect(0, 0, 0);
-  overflow: hidden;
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
 }
 .two-link {
   font-size: 20px;
@@ -184,6 +170,7 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .two-ul {
   padding: 24px 0;
@@ -192,7 +179,6 @@ img {
 }
 .two-li {
   width: calc((100% - 72px) / 4);
-  margin-bottom: 8px;
 }
 
 .two-text {
@@ -260,7 +246,14 @@ img {
   color: #434455;
 }
 .footer {
+  padding: 100px 0;
+}
+.footer {
   background: #2e2f42;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -281,4 +274,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
