@@ -162,9 +162,17 @@ img {
   padding: 120px 0;
 }
 
-.visually-hidden {
-  position: fixed;
-  transform: scale(0);
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .two-link {
   font-size: 20px;
@@ -271,7 +279,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .portfolio-list {
   font-size: 20px;
@@ -280,6 +287,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-size: 16px;
