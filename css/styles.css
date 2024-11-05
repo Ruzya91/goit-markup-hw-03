@@ -129,7 +129,6 @@ img {
   color: #ffffff;
   max-width: 496px;
   margin-bottom: 10px;
-  margin-left: 300px;
 }
 .button {
   display: block;
@@ -142,7 +141,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
-  margin-left: 436px;
+
   margin-top: 48px;
 }
 .button {
@@ -194,7 +193,7 @@ img {
   color: #434455;
 }
 .section-ourteam {
-  display: flex;
+  display: block;
   align-items: center;
 }
 .ourteam {
@@ -244,6 +243,11 @@ img {
   text-align: center;
   color: #434455;
 }
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .portfolio-link {
   font-size: 36px;
   font-weight: 700;
@@ -252,6 +256,22 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.portfolio-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-li {
+  width: calc((100% - 48px) / 3);
+}
+.container-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .portfolio-list {
   font-size: 20px;
