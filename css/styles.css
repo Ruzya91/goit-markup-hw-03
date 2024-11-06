@@ -61,17 +61,12 @@ img {
 .nav-ul {
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px;
-}
-.nav-text-li {
-  display: flex;
-  gap: 40px;
-  padding: 24px 0 24px;
 }
 .nav-text {
   padding: 24px 0 24px;
+  display: block;
 }
-.nav-text-li {
+.nav-text {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -90,11 +85,11 @@ img {
 .address-ul {
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px;
 }
 .address-mail {
   gap: 40px;
   padding: 24px 0 24px;
+  display: block;
 }
 .address-mail {
   font-size: 16px;
@@ -128,7 +123,6 @@ img {
   text-align: center;
   color: #ffffff;
   max-width: 496px;
-  margin-bottom: 10px;
 }
 .button {
   display: block;
@@ -184,7 +178,6 @@ img {
   margin-bottom: 8px;
 }
 .two-ul {
-  padding: 24px 0;
   gap: 24px;
   display: flex;
 }
